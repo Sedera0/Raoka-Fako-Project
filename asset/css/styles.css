@@ -184,7 +184,7 @@ header {
 
 /*------------------------------------RESPONSIVE HEAD ------------------------------------------------*/
 .hero-responsive {
-  display: flex;
+  display: none;
   flex-grow: 1;
   flex-direction: column;
   justify-content: center;
