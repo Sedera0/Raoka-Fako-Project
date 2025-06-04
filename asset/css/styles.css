@@ -182,15 +182,14 @@ header {
   background-color: rgb(26, 145, 68);
 }
 
-/*------------------------------------RESPONSIVE HEAD (Géré par CSS)------------------------------------------------*/
+/*------------------------------------RESPONSIVE HEAD ------------------------------------------------*/
 .hero-responsive {
-  display: none;
+  display: flex;
   flex-grow: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 2rem;
 }
 .hero-responsive .haut img {
   width: 95%;
@@ -1154,7 +1153,7 @@ header {
 
   .hero-responsive {
     display: flex;
-    min-height: 70vh;
+    min-height: 50vh;
   }
 
   .section1 .container {
